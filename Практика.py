@@ -1,3 +1,24 @@
+#Задание 1
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# print (a + b + c)
+# print (a * b * c)
+#Задание 2
+# a = int(input("Зарплата за месяц:"))
+# b = int(input("Сумма месячного платежа:"))
+# c = int(input("Задолженность:"))
+# print (a + b + c)
+#Задание 3
+# a = int(input("Диагональ ромба:"))
+# b = int(input("Диагональ ромба:"))
+# print (a * b // 2)
+#Задание 4
+# print("to be\n", "\tor not \n\t" , "\tto be")
+#Задание 5
+# print("Life is happens\n","\t\twhen\n", "\tyou`re busy making others plans")
+# print("\t\t\t\tJohn\n", "\t\t\t\t\tLennon")
+##############################################################################
 #1
 # day = int(input("Введите номер недели:"))
 # if day == 1:
@@ -63,6 +84,7 @@
 #     print(number1, number2)
 # else:
 #     print(number2, number1)
+##########################################
 #1
 # number =  int(input("Введите число от 1 до 100:"))
 # if 1 <= number <=100:
@@ -95,4 +117,5 @@
 # print(result)
 # result = number ** 7
 # print(result)
+#3
 

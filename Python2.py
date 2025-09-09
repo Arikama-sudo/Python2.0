@@ -66,5 +66,7 @@
 # b = int(input("Диагональ ромба:"))
 # print (a * b // 2)
 #Задание 4
-print("to be\n", "\tor not \n\t" , "\tto be")
-#Задание 5
+# print("to be\n", "\tor not \n\t" , "\tto be")
+# #Задание 5
+# print("Life is happens\n","\t\twhen\n", "\tyou`re busy making others plans")
+# print("\t\t\t\tJohn\n", "\t\t\t\t\tLennon")
