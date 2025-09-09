@@ -64,13 +64,16 @@
 # else:
 #     print(number2, number1)
 #1
-number =(int(input"Введите число от 1 до 100:"))
+number =  int(input("Введите число от 1 до 100:"))
 if 1 <= number <=100:
     if number % 3 == 0:
         print("FIZ")
     if number % 5 == 0:
         print("BUZ")
-    if number % 5 == 0 and
+    if number % 5 == 0 and\
         number % 3 == 0:
         print("FIZ BUZ")
     else:
+        print(number)
+else:
+    print("Неверно")
