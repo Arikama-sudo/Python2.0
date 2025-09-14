@@ -20,6 +20,49 @@
 # print("\t\t\t\tJohn\n", "\t\t\t\t\tLennon")
 ##############################################################################
 #1
+# number1 = int(input("Введите первое число:"))
+# number2 = int(input("Введите второе число:"))
+# number3 = int(input("Введите третье число:"))
+# print("Выберите операцию:")
+# print("1. Сложить числа")
+# print("2. Умножить числа")
+#
+# choice = input("Введите 1 или 2: ")
+# if choice == '1':
+#     result = number1 + number2 + number3
+#     print(f"Сумма чисел: {result}")
+# elif choice == '2':
+#     result = number1 * number2 * number3
+#     print(f"Произведение чисел: {result}")
+# else:
+#     print("Неправильный выбор.Введите 1 или 2.")
+#2
+# number1 = int(input("Введите первое число:"))
+# number2 = int(input("Введите второе число:"))
+# number3 = int(input("Введите третье число:"))
+# print("Выберите операцию:")
+# print("1.Максимум")
+# print("2.Минимум")
+# print("3.Среднее арифметическое")
+#
+# choice = input("Введите 1,2 или 3: ")
+#
+# if choice == '1':
+#     result = max(number1, number2, number3)
+#     print(f"Максимум:{result}")
+# elif choice == '2':
+#     result = min(number1, number2, number3)
+#     print(f"Минимум:{result}")
+# elif choice == '3':
+#     result = (number1 + number2 + number3) / 3
+#     print(f"Среднее арифметическое:{result}")
+# else:
+#     print("Неправильный выбор.Введите 1, 2 или 3.")
+#3
+
+
+##############################################################################
+# 1
 # day = int(input("Введите номер недели:"))
 # if day == 1:
 #     print("Понедельник")
@@ -37,34 +80,35 @@
 #     print("Воскресенье")
 # else:
 #     print("Нет такого дня недели")
-#2
-# month = int(input("Введите номер месяца:"))
-# if month == 1:
-#     print("Январь")
-# elif month == 2:
-#     print("Февраль")
-# elif month ==3:
-#     print("Март")
-# elif month ==4:
-#     print("Апрель")
-# elif month ==5:
-#     print("Май")
-# elif month ==6:
-#     print("Июнь")
-# elif month ==7:
-#     print("Июль")
-# elif month == 8:
-#     print("Август")
-# elif month == 9:
-#     print("Сентябрь")
-# elif month == 10:
-#     print("Октябрь")
-# elif month == 11:
-#     print("Ноябрь")
-# elif month == 12:
-#     print("Декабрь")
-# else:
-#     print("Нет такого номера месяца")
+# 2
+# month_number = int(input("Введите номер месяца (1-12): "))
+# match month_number:
+#     case 1:
+#         print("Январь")
+#     case 2:
+#         print("Февраль")
+#     case 3:
+#         print("Март")
+#     case 4:
+#         print("Апрель")
+#     case 5:
+#         print("Май")
+#     case 6:
+#         print("Июнь")
+#     case 7:
+#         print("Июль")
+#     case 8:
+#         print("Август")
+#     case 9:
+#         print("Сентябрь")
+#     case 10:
+#         print("Октябрь")
+#     case 11:
+#         print("Ноябрь")
+#     case 12:
+#         print("Декабрь")
+#     case _:
+#         print("Неправильный номер месяца. Пожалуйста, введите число от 1 до 12.")
 # #3
 # number = int(input("Введите число:"))
 # if number > 0:
