@@ -85,6 +85,24 @@
 #         print("Error")
 #         break
 ##############################################
+# for i in range(0, 10): #Условие цикла
+#выполнение внутреннего кода
+# for i in range(10, 0, -1):
+#     print("Hello", i)
+# #while(условие)
+# #while True:
+# #print("*')
+# value_user = int(input("Введите число для суммирования:"))
+# sum_user = 0
+# while value_user != 0:
+#     value_user = int(input("Введите число для суммирования:"))
+#     print(sum_user)
+# print("Сумма чисел пользователя:", sum_user)
+#*
+#**
+#***
+#****
+#*****
 # for i in range(0, 6):
 #     print("*" * i)
 # for i in range(0,6):
