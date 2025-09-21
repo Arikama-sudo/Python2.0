@@ -125,5 +125,50 @@
 #     if value_user == False:
 #         print("Слово не является палиндром")
 #         break
-
+#########################################################
+#Python 18/09/2025
+# user_string = input("Введите арифметическое выражение:")
+# #23+12
+# result = 0
+# value1 = ""
+# value2 = ""
+# letter = ''
+# letter_index = 0
+#Поиск знака для операции
+# for i in range(0,len(user_string)):
+#     if user_string[i] in '+-*/':
+#         letter = user_string[i]
+#         letter_index = i
+# for i in range(0, letter_index):
+#     value1 += user_string[i]
+# #Поиск второго числа
+# for i in range(letter_index + 1, len(user_string)):
+#     value2 += user_string[i]
+# #Преобразование в число
+# value1 = int(value1)
+# value2 = int(value2)
+# #Проверка знака
+# if letter == '+':
+#     result = value1 + value2
+# elif letter == '-':
+#     result = value1 - value2
+# elif letter == '*':
+#     result = value1 * value2
+# elif letter == '/':
+#     result = value1 / value2
+# print("Вычисление равно:", result)
+################################################
+# count = 0
+# user_str = input()
+# for i in user_str:
+#     if i in '.!?;':
+#         count += 1
+# print(count)
+################################################
+# user_str = input()
+# result_str= ''
+# len_str = len(user_str)
+# for i in range(len_str-1, -1, -1):
+#     result_str += user_str[i]
+# print(result_str)
 
