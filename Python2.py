@@ -84,6 +84,28 @@
 #     default:
 #         print("Error")
 #         break
-
+##############################################
+# for i in range(0, 6):
+#     print("*" * i)
+# for i in range(0,6):
+#     for j in range(0,i+1):
+#         print("*", end='')
+#     print()
+#Пользователь вводит строку
+#Необходимо проверить её на палиндром
+#кок, а буду я у дуба,
+# user_string = input("Введите строку для проверки Палидром:")
+# counter_letter = len(user_string)#Функция подсчета
+# value_user = True #Переменная для проверки палидрома кол-ва элементов
+# for letter_begin in range(0, counter_letter):
+#     for letter_end in range(counter_letter, 0, -1):
+#         print("Проверяется буква:",user_string[letter_begin])
+#         print("Проверяется буква:",user_string[letter_end])
+#         if letter_begin != letter_end:
+#             value_user = False
+#             break
+#     if value_user == False:
+#         print("Слово не является палиндром")
+#         break
 
 
