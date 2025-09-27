@@ -214,3 +214,19 @@
 #             count_multiples_of_5 += 1
 #
 #     print(f"Количество чисел, кратных 5, в диапазоне от {start} до {end}: {count_multiples_of_5}")
+#3
+# start = int(input("Введите начало диапазона: "))
+# end = int(input("Введите конец диапазона: "))
+#
+# if start > end:
+#     print("Начало диапазона должно быть меньше конца.")
+# else:
+#     for number in range(start, end + 1):
+#         if number % 3 == 0 and number % 5 == 0:
+#             print("Fizz Buzz")
+#         elif number % 3 == 0:
+#             print("Fizz")
+#         elif number % 5 == 0:
+#             print("Buzz")
+#         else:
+#             print(number)
