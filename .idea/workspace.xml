@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90d2cb7c-6d0d-46e6-9f5b-8477cb006909" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Практика.py" beforeDir="false" afterPath="$PROJECT_DIR$/Практика.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Python2">
+  <component name="RunManager" selected="Python.Практика">
     <configuration name="Практика" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2.0" />
       <option name="ENV_FILES" value="" />
@@ -87,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Python2" />
         <item itemvalue="Python.Практика" />
+        <item itemvalue="Python.Python2" />
       </list>
     </recent_temporary>
   </component>

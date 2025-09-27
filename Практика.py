@@ -178,4 +178,14 @@
 # result = number ** 7
 # print(result)
 #############################################
-
+#1
+start = int(input("Введите начало диапозона:"))
+end = int(input("Введите конец диапозона:"))
+if start > end:
+    print("Начало диапозона должны быть меньше конца.")
+else:
+    print(f"Числа кратные 7,в диапозоне {start} до {end}:")
+for number in range(start, end + 1):
+    if number % 7 == 0:
+        print(number)
+#2
