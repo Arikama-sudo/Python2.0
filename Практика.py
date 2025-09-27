@@ -179,13 +179,38 @@
 # print(result)
 #############################################
 #1
-start = int(input("Введите начало диапозона:"))
-end = int(input("Введите конец диапозона:"))
-if start > end:
-    print("Начало диапозона должны быть меньше конца.")
-else:
-    print(f"Числа кратные 7,в диапозоне {start} до {end}:")
-for number in range(start, end + 1):
-    if number % 7 == 0:
-        print(number)
-#2
+# start = int(input("Введите начало диапозона:"))
+# end = int(input("Введите конец диапозона:"))
+# if start > end:
+#     print("Начало диапозона должны быть меньше конца.")
+# else:
+#     print(f"Числа кратные 7,в диапозоне {start} до {end}:")
+# for number in range(start, end + 1):
+#     if number % 7 == 0:
+#         print(number)
+# #2
+# start = int(input("Введите начало диапазона: "))
+# end = int(input("Введите конец диапазона: "))
+#
+# if start > end:
+#     print("Начало диапазона должно быть меньше конца.")
+# else:
+#     print(f"Все числа диапазона от {start} до {end}:")
+#     for number in range(start, end + 1):
+#         print(number, end=' \n')
+#
+#     print(f"Все числа диапазона от {end} до {start} в убывающем порядке:")
+#     for number in range(end, start - 1, -1):
+#         print(number, end=' \n')
+#
+#     print(f"Числа, кратные 7, в диапазоне от {start} до {end}:")
+#     for number in range(start, end + 1):
+#         if number % 7 == 0:
+#             print(number, end=' \n')
+#
+#     count_multiples_of_5 = 0
+#     for number in range(start, end + 1):
+#         if number % 5 == 0:
+#             count_multiples_of_5 += 1
+#
+#     print(f"Количество чисел, кратных 5, в диапазоне от {start} до {end}: {count_multiples_of_5}")
