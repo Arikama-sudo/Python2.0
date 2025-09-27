@@ -180,4 +180,3 @@
 # for i in range(len_str-1, -1, -1):
 #     result_str += user_str[i]
 # print(result_str)
-
