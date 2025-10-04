@@ -230,3 +230,54 @@
 #             print("Buzz")
 #         else:
 #             print(number)
+#############################################################
+#1
+# numbers = (2, 5, 6, 8)
+# product = 1
+# for number in numbers:
+#     product *= number
+# print(product)
+# #2
+# numbers = (7, 5, 2, 9, 3)
+# minimum = numbers[0]
+# for number in numbers:
+#     if number < minimum:
+#         minimum = number
+# print("Минимум:", minimum)
+#3
+# numbers = (3, 4, 5, 7, 10, 24, 25)
+# prime_count = 0
+# for num in numbers:
+#     if num > 1:
+#         is_prime = 1
+#     for i in range(2, int(num**0.5) + 1):
+#          if num % i == 0:
+#             is_prime = 0
+#             break
+#     if is_prime:
+#          prime_count += 1
+# print("Количество простых чисел:", prime_count)
+#4
+# numbers = [2, 3, 4, 5, 6, 3, 15, 18, 22, 27]
+# number_to_remove = 3
+# removed_count = 0
+# new_number = []
+# for number in numbers:
+#     if number == number_to_remove:
+#         removed_count += 1
+#     else:
+#         new_number .append(number)
+# numbers = new_number
+# print("количество удалённых элементов:", removed_count)
+#5
+# a = (1, 3, 5)
+# b = (2, 4, 6)
+# num = a + b
+# print("Объединённые списки:", num)
+#6
+# numbers = (1, 3, 4, 6, 8)
+# power = 2
+# result = ()
+# for number in numbers:
+#     result += (number ** power,)
+# print("Результаты:", result)
