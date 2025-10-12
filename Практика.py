@@ -281,3 +281,43 @@
 # for number in numbers:
 #     result += (number ** power,)
 # print("Результаты:", result)
+###################################################
+#1
+# import random
+# N = 20
+# list_booble = []
+# for i in range(N):
+#     list_booble.append(random.randint(-10,10))
+# print(f"Начальный список:{list_booble}")
+# #левая половина
+# for i in range(N//2):
+#     for j in range(N//2 - 1 - i):
+#        if list_booble[j] < list_booble[j + 1]:
+#            list_booble[j], list_booble[j + 1] = list_booble[j + 1], list_booble[j]
+# #правая половина
+# for i in range(N//2):
+#     for j in range(N//2, N -1):
+#        if list_booble[j] > list_booble[j + 1]:
+#            list_booble[j], list_booble[j + 1] = list_booble[j + 1], list_booble[j]
+# print(f"Финальный список: {list_booble} ")
+#2
+import random
+N = 45
+list_booble = []
+for i in range(N):
+    list_booble.append(random.randint(-20, 20))
+print(list_booble)
+for i in range(N//3):
+    for j in range(N//3 - 1 - i):
+        if list_booble[j] < list_booble[j+1]:
+            list_booble[j], list_booble[j+1] = list_booble[j+1], list_booble[j]
+for i in range(N//3):
+    for j in range(N//3, N - 1):
+        if list_booble[j] > list_booble[j + 1]:
+            list_booble[j], list_booble[j + 1] = list_booble[j + 1], list_booble[j]
+for i in range(N // 3):
+    for j in range(N // 3, N):
+        if list_booble[j] > list_booble[j // 2]:
+            list_booble[j], list_booble[j - 1] = list_booble[j - 1], list_booble[j]
+print(f"Финальный список: {list_booble} ")
+
