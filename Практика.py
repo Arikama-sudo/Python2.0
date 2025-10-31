@@ -301,23 +301,130 @@
 #            list_booble[j], list_booble[j + 1] = list_booble[j + 1], list_booble[j]
 # print(f"Финальный список: {list_booble} ")
 #2
-import random
-N = 45
-list_booble = []
-for i in range(N):
-    list_booble.append(random.randint(-20, 20))
-print(list_booble)
-for i in range(N//3):
-    for j in range(N//3 - 1 - i):
-        if list_booble[j] < list_booble[j+1]:
-            list_booble[j], list_booble[j+1] = list_booble[j+1], list_booble[j]
-for i in range(N//3):
-    for j in range(N//3, N - 1):
-        if list_booble[j] > list_booble[j + 1]:
-            list_booble[j], list_booble[j + 1] = list_booble[j + 1], list_booble[j]
-for i in range(N // 3):
-    for j in range(N // 3, N):
-        if list_booble[j] > list_booble[j // 2]:
-            list_booble[j], list_booble[j - 1] = list_booble[j - 1], list_booble[j]
-print(f"Финальный список: {list_booble} ")
-
+# import random
+# N = 45
+# list_booble = []
+# for i in range(N):
+#     list_booble.append(random.randint(-20, 20))
+# print(list_booble)
+# for i in range(N//3):
+#     for j in range(N//3 - 1 - i):
+#         if list_booble[j] < list_booble[j+1]:
+#             list_booble[j], list_booble[j+1] = list_booble[j+1], list_booble[j]
+# for i in range(N//3):
+#     for j in range(N//3, N - 1):
+#         if list_booble[j] > list_booble[j + 1]:
+#             list_booble[j], list_booble[j + 1] = list_booble[j + 1], list_booble[j]
+# for i in range(N // 3):
+#     for j in range(N // 3, N):
+#         if list_booble[j] > list_booble[j // 2]:
+#             list_booble[j], list_booble[j - 1] = list_booble[j - 1], list_booble[j]
+# print(f"Финальный список: {list_booble} ")
+################################################################
+#1
+# import re
+#
+# def is_cyrillic(text):
+#     return bool(re.search('[а-яА-Я]', text))
+#
+# def calculate_score(text, points):
+#     return sum([key for letter in text.upper() for key, value in points.items() if letter in value])
+#
+# def main():
+#     point_en = {
+#         1: 'AEIOULNSTR',
+#         2: 'DG',
+#         3: 'BCMP',
+#         4: 'FHVWY',
+#         5: 'K',
+#         8: 'JX',
+#         10: 'QZ'
+#     }
+#
+#     point_ru = {
+#         1: 'АВЕИЙНОСТ',
+#         2: 'ДКМПУ',
+#         3: 'БГЁЬЯ',
+#         4: 'ЙЫ',
+#         5: 'ЖЗЧЦ',
+#         8: 'ШЭЮ',
+#         10: 'ФЩЪ'
+#     }
+#
+#     num_players = int(input("Введите количество игроков: "))
+#     rounds = 10
+#     scores = [0] * num_players
+#
+#     for round_number in range(1, rounds + 1):
+#         print(f"\nРаунд {round_number}")
+#         for player in range(num_players):
+#             word = input(f"Игрок {player + 1}, введите слово: ").strip()
+#             if is_cyrillic(word):
+#                 score = calculate_score(word, point_ru)
+#             else:
+#                 score = calculate_score(word, point_en)
+#
+#             scores[player] += score
+#             print(f"Игрок {player + 1} набрал {score} очков в этом раунде.")
+#
+#     print("\nИтоговые результаты:")
+#     for player in range(num_players):
+#         print(f"Игрок {player + 1}: {scores[player]} очков")
+#
+# if __name__ == "__main__":
+#     main()
+#2
+# backpack = {
+#     'Зажигалка': 20, 'Компас': 100, 'Фрукты': 500, 'Рубашка': 300,
+#     'Термос': 1000, 'Аптечка': 200, 'Куртка': 600, 'Бинокль': 400,
+#     'Удочка': 1300, 'Салфетки': 40, 'Бутерброды': 800, 'Палатка': 5500,
+#     'Спальный мешок': 2500, 'Изолента': 250, 'Котел': 3000
+# }
+#
+# massa = int(input("Введите допустимый вес рюкзака (в кг): ")) * 1000
+#
+# print("Могу взять:")
+# for key, value in backpack.items():
+#     if value < massa:
+#         print(key, value ,end='')
+# print()
+# print("\nНе могу взять:")
+# for key, value in backpack.items():
+#     if value > massa:
+#         print(key,value,end='')
+#3
+# def main():
+#     note_book = {
+#         "Маша": {
+#             'tel': '+7922123561',
+#             'vk': 'vk.com/masha321',
+#             'youtube': 'youtube.com/masha321',
+#             'telegram': 't.me/masha321'
+#         },
+#         "Наташа": {
+#             'tel': '+7922123562',
+#             'vk': 'vk.com/natasha321',
+#             'youtube': 'youtube.com/natasha321',
+#             'telegram': 't.me/natasha321'
+#         },
+#         "Петя": {
+#             'tel': '+7922123563',
+#             'vk': 'vk.com/petya321',
+#             'youtube': 'youtube.com/petya321',
+#             'telegram': 't.me/petya321'
+#         }
+#     }
+#
+#     user_search = input("Введите имя контакта: ").capitalize()
+#     if user_search in note_book:
+#         contact = note_book[user_search]
+#         print(f"Контакт: {user_search}")
+#         print(f"Телефон: {contact['tel']}")
+#         print(f"VK: {contact['vk']}")
+#         print(f"YouTube: {contact['youtube']}")
+#         print(f"Telegram: {contact['telegram']}")
+#     else:
+#         print("Контакт не найден.")
+#
+# if __name__ == "__main__":
+#     main()
